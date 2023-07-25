@@ -37,5 +37,5 @@ j)ShortAlign: for very short parts of given sequences (at most 10 residues), the
 # Running the standalone version of NASA
 For running the algorithm, import it into your source code and determine its parameters, as shown in Figure 2.
 
-
+![CallNasa](https://github.com/MasoudiYosef/NASA/assets/83264279/55efcffd-1d87-436d-ac3b-d27e6f40778f)
 Figure 2: Running NASA and setting its parameters
