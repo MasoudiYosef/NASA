@@ -5,7 +5,9 @@ Requirements for running the standalone version of NASA
 NASA is executable in all the existing operating systems such as Windows, Linux, and Mac. To run NASA, you need one of the Python programming language versions. The current version has been developed in Python 3.8.0. After installing Python, you need to add numpy library to your operating system environment. To this end, you can follow Figure 1 (pip install numpy):
 
 
+![Picture1](https://github.com/MasoudiYosef/NASA/assets/83264279/55643571-3ddb-4d78-adf4-bb4493981d91)
 Figure 1: install numpy
+
 
 From the required hardware properties perspective, the standalone version of NASA can be exploited in a system with the minimum power of CPU and volume of RAM. However, the higher the power of the computer system, the faster the outcome production process.
 
