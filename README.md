@@ -12,14 +12,23 @@ From the required hardware properties perspective, the standalone version of NAS
 The existing functions
 The current version of NASA includes 10 distinct functions explained below:
 a)CallNasa: This function receives two sequences and calls other procedures to preprocess and score them.
+
 b)Initial: For every residue, this function generates an empty list. It also creates score and counter arrays to show sub-scores and to count a specific residue from the beginning of a sequence to the identified position, respectively.
+
 c)PRE_Positions: For every residue, this step determines what the position of other residues is before a specified position. 
+
 d)SUC_Positions: For every residue, this step determines what the position of other residues is after a specified position.
+
 e)NASA: This procedure applies the residues of shorter sequences to the larger sequence one by one and calls the score function. In other words, this procedure manages the alignment process in terms of specifying the alignment indices and integrating the outcomes.
+
 f)Score: For a given residue, in a range determined by RTB, this function goes through the predefined positions (by the PRE_Positions) and updates the score array and the residues’ counter variable.
+
 g)UpdateSucc: During the scoring step, for every residue, this function updates the residues’ counter variables and returns them to their positions observed before the current one, provided that the score value of the current position is more than the one indicated by the residue’s counter variable. 
+
 h)UpdatePara: Like the UpdateSucc function, the UpdataPara function controls the residues’ counter variables to not exceed their observed range.
+
 i)ShowSequence: Based on the calculated score array and the given sequences, this function determines the approximate relationship between the sequences.
+
 j)ShortAlign: for very short parts of given sequences (at most 10 residues), the ShowSequence function calls the ShortAlign function to specify the matched residues. This function operates based on the classic alignment methods.
 
 
