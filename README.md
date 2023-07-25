@@ -34,7 +34,7 @@ i)ShowSequence: Based on the calculated score array and the given sequences, thi
 j)ShortAlign: for very short parts of given sequences (at most 10 residues), the ShowSequence function calls the ShortAlign function to specify the matched residues. This function operates based on the classic alignment methods.
 
 
-# Running the standalone version of NASA
+# Embedding NASA in your source code
 For running the algorithm, import it into your source code and determine its parameters, as shown in Figure 2.
 
 ![CallNasa](https://github.com/MasoudiYosef/NASA/assets/83264279/55efcffd-1d87-436d-ac3b-d27e6f40778f)
